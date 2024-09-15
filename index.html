@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color_Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="left_contianer">
+        <div class="text-box" id="text-box">
+            <input type="text" id="input1" placeholder="Start typing here...">
+        </div>
+        <button id="reset" onClick="reset()">Reset</button>
+        <br>
+        <button id="download" onClick="download">Download</button>
+    </div>
+    <div class="container1">
+        <center><h3>Select Background Color</h3></center>
+        <div class="background_color" id="b_color">
+            <br>
+            <div onClick="bg_my_red()" class="colors" style="background-color: red;"></div>
+
+            <div onClick="bg_my_blue()" class="colors" style="background-color: blue;"></div>
+
+            <div onClick="bg_my_pink()" class="colors" style="background-color: pink;"></div>
+
+            <div onClick="bg_my_brown()" class="colors" style="background-color: brown;"></div>
+
+            <div onClick="bg_my_yellow()" class="colors" style="background-color: yellow;"></div>
+
+            <div onClick="bg_my_purple()" class="colors" style="background-color: purple;"></div>
+
+            <div onClick="bg_my_black()" class="colors" style="background-color: black;"></div>
+
+            <div onClick="bg_my_darkolivegreen()" class="colors" style="background-color: darkolivegreen;"></div>
+
+            <div onClick="bg_my_green()" class="colors" style="background-color: orange;"></div>
+
+            <div onClick="bg_my_gray()" class="colors" style="background-color: gray;"></div>
+
+            <div onClick="bg_my_darkslategray()" class="colors" style="background-color: darkslategray;"></div>
+
+            <div onClick="bg_my_lightgreen()" class="colors" style="background-color: lightgreen;"></div>
+
+            <div onClick="bg_my_maroon()" class="colors" style="background-color: maroon;"></div>
+
+            <div onClick="bg_my_lime()" class="colors" style="background-color: lime;"></div>
+
+            <div onClick="bg_my_wheat()" class="colors" style="background-color: wheat;"></div>
+
+            <div onClick="bg_my_goldenrod()" class="colors" style="background-color: goldenrod;"></div>
+
+            <div onClick="bg_my_salmon()" class="colors" style="background-color: salmon;"></div>
+
+            <div onClick="bg_my_chocolate()" class="colors" style="background-color: chocolate;"></div>
+
+            <div onClick="bg_my_darkblue()" class="colors" style="background-color: darkblue;"></div>
+
+            <div onClick="bg_my_springgreen()" class="colors" style="background-color: springgreen;"></div>
+
+            <div onClick="bg_my_turquoise()" class="colors" style="background-color: turquoise;"></div>
+
+            <div onClick="bg_my_aqua()" class="colors" style="background-color: aqua;"></div>
+
+            <div onClick="bg_my_crimson()" class="colors" style="background-color: crimson;"></div>
+
+            <div onClick="bg_my_silver()" class="colors" style="background-color: silver;"></div>
+
+            <div onClick="bg_my_darkred()" class="colors" style="background-color: darkred;"></div>
+
+            <div onClick="bg_my_navy()" class="colors" style="background-color: navy;"></div>
+
+            <div onClick="bg_my_orchid()" class="colors" style="background-color: orchid;"></div>
+
+            <div onClick="bg_my_teal()" class="colors" style="background-color: teal;"></div>
+
+            <div onClick="bg_my_blueviolet()" class="colors" style="background-color: blueviolet;"></div>
+
+            <div onClick="bg_my_palegreen()" class="colors" style="background-color: palegreen;"></div>
+
+        </div>
+        <center><h3>Select Font Color</h3></center>
+        <div class="font_color" id="f_color">
+            <div onClick="f_my_red()" class="colors" style="background-color: red;"></div>
+
+            <div onClick="f_my_blue()" class="colors" style="background-color: blue;"></div>
+
+            <div onClick="f_my_pink()" class="colors" style="background-color: pink;"></div>
+
+            <div onClick="f_my_brown()" class="colors" style="background-color: brown;"></div>
+
+            <div onClick="f_my_yellow()" class="colors" style="background-color: yellow;"></div>
+
+            <div onClick="f_my_purple()" class="colors" style="background-color: purple;"></div>
+
+            <div onClick="f_my_black()" class="colors" style="background-color: black;"></div>
+
+            <div onClick="f_my_darkolivegreen()" class="colors" style="background-color: darkolivegreen;"></div>
+
+            <div onClick="f_my_green()" class="colors" style="background-color: orange;"></div>
+
+            <div onClick="f_my_gray()" class="colors" style="background-color: gray;"></div>
+
+            <div onClick="f_my_darkslategray()" class="colors" style="background-color: darkslategray;"></div>
+
+            <div onClick="f_my_lightgreen()" class="colors" style="background-color: lightgreen;"></div>
+
+            <div onClick="f_my_maroon()" class="colors" style="background-color: maroon;"></div>
+
+            <div onClick="f_my_lime()" class="colors" style="background-color: lime;"></div>
+
+            <div onClick="f_my_wheat()" class="colors" style="background-color: wheat;"></div>
+
+            <div onClick="f_my_goldenrod()" class="colors" style="background-color: goldenrod;"></div>
+
+            <div onClick="f_my_salmon()" class="colors" style="background-color: salmon;"></div>
+
+            <div onClick="f_my_chocolate()" class="colors" style="background-color: chocolate;"></div>
+
+            <div onClick="f_my_darkblue()" class="colors" style="background-color: darkblue;"></div>
+
+            <div onClick="f_my_springgreen()" class="colors" style="background-color: springgreen;"></div>
+
+            <div onClick="f_my_turquoise()" class="colors" style="background-color: turquoise;"></div>
+
+            <div onClick="f_my_aqua()" class="colors" style="background-color: aqua;"></div>
+
+            <div onClick="f_my_crimson()" class="colors" style="background-color: crimson;"></div>
+
+            <div onClick="f_my_silver()" class="colors" style="background-color: silver;"></div>
+
+            <div onClick="f_my_darkred()" class="colors" style="background-color: darkred;"></div>
+
+            <div onClick="f_my_navy()" class="colors" style="background-color: navy;"></div>
+
+            <div onClick="f_my_orchid()" class="colors" style="background-color: orchid;"></div>
+
+            <div onClick="f_my_teal()" class="colors" style="background-color: teal;"></div>
+
+            <div onClick="f_my_blueviolet()" class="colors" style="background-color: blueviolet;"></div>
+
+            <div onClick="f_my_palegreen()" class="colors" style="background-color: palegreen;"></div>
+
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
